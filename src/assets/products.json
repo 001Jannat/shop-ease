@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Used Bar Stools Vitra Brand Germany",
+    "description": "This is the description for Bar Stools Vitra Brand Germany.",
+    "price": "4130.00",
+    "originalPrice": "22000.00",
+    "discount": "81",
+    "photos": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Used featherlite Amaze chairs",
+    "description": "This is the description for featherlite Amaze chairs.",
+    "price": "5500.00",
+    "originalPrice": "10000.00",
+    "discount": "45",
+    "photos": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Used featherlite Amaze chairs",
+    "description": "This is the description for featherlite Amaze chairs.",
+    "price": "5500.00",
+    "originalPrice": "10000.00",
+    "discount": "45",
+    "photos": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Used featherlite Amaze chairs",
+    "description": "This is the description for featherlite Amaze chairs.",
+    "price": "5500.00",
+    "originalPrice": "10000.00",
+    "discount": "45",
+    "photos": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Used featherlite Amaze chairs",
+    "description": "This is the description for featherlite Amaze chairs.",
+    "price": "5500.00",
+    "originalPrice": "10000.00",
+    "discount": "45",
+    "photos": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Used featherlite Amaze chairs",
+    "description": "This is the description for featherlite Amaze chairs.",
+    "price": "5500.00",
+    "originalPrice": "10000.00",
+    "discount": "45",
+    "photos": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
+    ]
+  }
+]
