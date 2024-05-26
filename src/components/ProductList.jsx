@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Box, SimpleGrid } from '@chakra-ui/react';
-import ProductCard from './ProductCard';
+import { ProductCard } from '.';
 import productsData from '../assets/products.json';
 
 const ProductList = () => {
@@ -11,8 +11,8 @@ const ProductList = () => {
   }, []);
 
   return (
-    <Box p="20px">
-      <SimpleGrid columns={[1, 2, 3]} spacing="40px">
+    <Box pl={[0, 4, 8]} py={4}>
+      <SimpleGrid columns={[1, 2, 4]} spacing="20px">
         {products.map(product => (
           <ProductCard key={product.id} product={product} />
         ))}

@@ -1,8 +1,13 @@
 import React from 'react';
-import ProductList from '../components/ProductList';
-
+import { Box } from '@chakra-ui/react';
+import { Banner,ProductList } from '../components';
 const Home = () => {
-  return <ProductList />;
+  return (
+    <Box>
+      <Banner />
+      <ProductList />
+    </Box>
+  );
 };
 
 export default Home;
