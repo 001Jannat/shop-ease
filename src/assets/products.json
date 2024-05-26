@@ -1,68 +1,195 @@
 [
   {
     "id": "1",
-    "name": "Used Bar Stools Vitra Brand Germany",
-    "description": "This is the description for Bar Stools Vitra Brand Germany.",
-    "price": "4130.00",
-    "originalPrice": "22000.00",
-    "discount": "81",
+    "name": "Women's Ethnic Dress",
+    "description": "Beautiful traditional ethnic dress perfect for festive occasions.",
+    "price": "3500.00",
+    "originalPrice": "5000.00",
+    "discount": "30",
     "photos": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
-    ]
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "women_ethnic"
   },
   {
     "id": "2",
-    "name": "Used featherlite Amaze chairs",
-    "description": "This is the description for featherlite Amaze chairs.",
-    "price": "5500.00",
-    "originalPrice": "10000.00",
-    "discount": "45",
+    "name": "Women's Western Top",
+    "description": "Stylish and comfortable western top for casual wear.",
+    "price": "1200.00",
+    "originalPrice": "2000.00",
+    "discount": "40",
     "photos": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
-    ]
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "women_western"
   },
   {
-    "id": "2",
-    "name": "Used featherlite Amaze chairs",
-    "description": "This is the description for featherlite Amaze chairs.",
-    "price": "5500.00",
-    "originalPrice": "10000.00",
-    "discount": "45",
+    "id": "3",
+    "name": "Men's Casual Shirt",
+    "description": "Cool and comfortable casual shirt for men.",
+    "price": "1500.00",
+    "originalPrice": "3000.00",
+    "discount": "50",
     "photos": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
-    ]
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "men"
   },
   {
-    "id": "2",
-    "name": "Used featherlite Amaze chairs",
-    "description": "This is the description for featherlite Amaze chairs.",
-    "price": "5500.00",
-    "originalPrice": "10000.00",
-    "discount": "45",
+    "id": "4",
+    "name": "Kid's T-Shirt",
+    "description": "Colorful and fun T-shirt for kids.",
+    "price": "800.00",
+    "originalPrice": "1500.00",
+    "discount": "47",
     "photos": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
-    ]
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "kids"
   },
   {
-    "id": "2",
-    "name": "Used featherlite Amaze chairs",
-    "description": "This is the description for featherlite Amaze chairs.",
-    "price": "5500.00",
-    "originalPrice": "10000.00",
-    "discount": "45",
+    "id": "5",
+    "name": "Home Decor Lamp",
+    "description": "Elegant home decor lamp to light up your living space.",
+    "price": "2500.00",
+    "originalPrice": "5000.00",
+    "discount": "50",
     "photos": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
-    ]
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "home_decor"
   },
   {
-    "id": "2",
-    "name": "Used featherlite Amaze chairs",
-    "description": "This is the description for featherlite Amaze chairs.",
-    "price": "5500.00",
-    "originalPrice": "10000.00",
-    "discount": "45",
+    "id": "6",
+    "name": "Beauty Skincare Set",
+    "description": "Complete skincare set to keep your skin glowing.",
+    "price": "3000.00",
+    "originalPrice": "6000.00",
+    "discount": "50",
     "photos": [
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAz57xpknUvRi6k3Ww2izWmCzJHcsOmV9bwQ&s"
-    ]
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "7",
+    "name": "Men's Formal Suit",
+    "description": "Classic formal suit for men, perfect for professional occasions.",
+    "price": "4500.00",
+    "originalPrice": "7000.00",
+    "discount": "35",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "men"
+  },
+  {
+    "id": "8",
+    "name": "Women's Party Dress",
+    "description": "Gorgeous party dress for women, ideal for special events.",
+    "price": "2800.00",
+    "originalPrice": "4000.00",
+    "discount": "30",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "women_western"
+  },
+  {
+    "id": "9",
+    "name": "Kid's Denim Jeans",
+    "description": "Stylish denim jeans for kids, perfect for casual wear.",
+    "price": "1000.00",
+    "originalPrice": "1800.00",
+    "discount": "44",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "kids"
+  },
+  {
+    "id": "10",
+    "name": "Home Decor Cushions",
+    "description": "Set of decorative cushions to add charm to your living room.",
+    "price": "1200.00",
+    "originalPrice": "2000.00",
+    "discount": "40",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "home_decor"
+  },
+  {
+    "id": "11",
+    "name": "Beauty Makeup Kit",
+    "description": "Complete makeup kit for all your beauty needs.",
+    "price": "3500.00",
+    "originalPrice": "5500.00",
+    "discount": "36",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  
+  {
+    "id": "12",
+    "name": "Men's Sports Shoes",
+    "description": "Comfortable and durable sports shoes for men, suitable for various activities.",
+    "price": "2000.00",
+    "originalPrice": "3000.00",
+    "discount": "33",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "men"
+  },
+  {
+    "id": "13",
+    "name": "Women's Handbag",
+    "description": "Stylish and spacious handbag for women, perfect for everyday use.",
+    "price": "1500.00",
+    "originalPrice": "2500.00",
+    "discount": "40",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "women_accessories"
+  },
+  {
+    "id": "14",
+    "name": "Kids' Educational Toys Set",
+    "description": "Engaging and educational toys set for kids to enhance learning and creativity.",
+    "price": "1200.00",
+    "originalPrice": "1800.00",
+    "discount": "33",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "kids"
+  },
+  {
+    "id": "15",
+    "name": "Home Decor Wall Clock",
+    "description": "Modern and elegant wall clock to adorn your home decor.",
+    "price": "800.00",
+    "originalPrice": "1200.00",
+    "discount": "33",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "home_decor"
+  },
+  {
+    "id": "16",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
   }
 ]
