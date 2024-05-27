@@ -8,3 +8,5 @@ export {default as Footer} from './Footer';
 export {default as ProductCardSkeleton} from './productCardLoad';
 export {default as Banner} from './banner';
 export {default as NavItems} from './navItems';
+export {default as CategoryList} from './categories';
+export {default as Pagination} from './pagination';

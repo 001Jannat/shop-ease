@@ -12,7 +12,7 @@ const Footer = () => {
       <Grid templateColumns="repeat(2, 1fr)" gap={6} mt={20} mb={20}>
       <Container textAlign="center" p={4} borderRadius="full" boxShadow="md" bg="transparent">
           <Text fontWeight="bold">100% ORIGINAL</Text>
-          <Text>guarantee for all products at myntra.com</Text>
+          <Text>guarantee for all products at shopease.com</Text>
         </Container>
         <Container textAlign="center" p={4} borderRadius="full" boxShadow="md" bg="transparent">
           <Text fontWeight="bold">Return within 14 days</Text>
@@ -28,7 +28,7 @@ const Footer = () => {
             <Link as={RouterLink} to="/home-living">Home & Living</Link>
             <Link as={RouterLink} to="/beauty">Beauty</Link>
             <Link as={RouterLink} to="/gift-cards">Gift Cards</Link>
-            <Link as={RouterLink} to="/myntra-insider">Myntra Insider</Link>
+            <Link as={RouterLink} to="/shopease-insider">Shop Ease Insider</Link>
           </Stack>
           <Stack align="flex-start">
             <Text fontWeight="bold">CUSTOMER POLICIES</Text>
@@ -44,7 +44,7 @@ const Footer = () => {
             <Link as={RouterLink} to="/grievance-officer">Grievance Officer</Link>
           </Stack>
           <Stack align="flex-start">
-            <Text fontWeight="bold">EXPERIENCE MYNTRA APP ON MOBILE</Text>
+            <Text fontWeight="bold">EXPERIENCE SHOP EASE APP ON MOBILE</Text>
             <Stack direction="row" spacing={4}>
               <Link href="https://play.google.com/store" isExternal>
                 <Image

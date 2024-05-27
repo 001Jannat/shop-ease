@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Box, Image, Text, Badge, Stack, Link } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
-import {ProductCardSkeleton} from '.'
+import { ProductCardSkeleton } from ".";
+import LikeButton from "./like/likeButton";
 
 const ProductCard = ({ product }) => {
   const [isLoading, setIsLoading] = useState(true);
+  const [isLiked, setIsLiked] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -13,6 +15,10 @@ const ProductCard = ({ product }) => {
 
     return () => clearTimeout(timer);
   }, []);
+
+  const handleLike = () => {
+    setIsLiked(true); 
+  };
 
   if (isLoading) {
     return <ProductCardSkeleton />;
@@ -24,17 +30,22 @@ const ProductCard = ({ product }) => {
         borderWidth="2px"
         borderRadius="lg"
         overflow="hidden"
+        bg="blue.50"
         boxShadow="md"
         mb="5"
         maxW="100%"
+        position="relative" 
         transition="all 0.3s"
         _hover={{
           transform: "scale(1.05)",
           boxShadow: "lg",
         }}
       >
-        <Box p="3">
+        <Box p="3" position="relative">
           <Image src={product.photos[0]} alt={product.name} borderRadius="md" />
+          <Box position="absolute" bottom="2" right="2" zIndex="2">
+            <LikeButton onLike={handleLike} />
+          </Box>
         </Box>
         <Box p="1">
           {product.discount && (
