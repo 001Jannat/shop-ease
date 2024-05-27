@@ -17,11 +17,12 @@ import {
   DrawerContent,
   DrawerCloseButton,
   useDisclosure,
+  Image,
 } from "@chakra-ui/react";
 import { Link as RouterLink, useNavigate } from "react-router-dom";
 import { Search2Icon } from "@chakra-ui/icons";
-import { FaShoppingCart, FaUser, FaBars } from "react-icons/fa";
-import {NavItems} from ".";
+import { FaShoppingCart, FaUser, FaBars, FaHeart } from "react-icons/fa";
+import { NavItems } from ".";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -49,24 +50,25 @@ const Header = () => {
       zIndex="1000"
     >
       <Flex alignItems="center" justify="space-between" wrap="wrap">
+        <Image src="./shop ease.png" alt="shop ease" boxSize="60px" rounded="full" mt={2} bg="teal.100"/>
         <Flex alignItems="center">
           <Heading
             as="h1"
             size="lg"
-            bgGradient="linear(to-r, teal.500, green.500)"
+            bgGradient="linear(to-r, teal.500, blue.500)"
             bgClip="text"
             fontFamily="'Lobster', cursive"
           >
             <Link as={RouterLink} to="/" _hover={{ textDecoration: "none" }}>
-              shop ease
+              Shop Ease
             </Link>
           </Heading>
         </Flex>
-
+        <Spacer />
         <Box display={{ base: "none", md: "block" }}>
           <NavItems />
         </Box>
-
+        <Spacer />
         <Flex
           flex="1"
           justify={{ base: "flex-end", md: "space-between" }}
@@ -104,6 +106,15 @@ const Header = () => {
           />
           <IconButton
             as={RouterLink}
+            to="/heart"
+            icon={<FaHeart color="red" />}
+            aria-label="Heart"
+            variant="ghost"
+            color="blue.800"
+            _hover={{ bg: "blue.100" }}
+          />
+          <IconButton
+            as={RouterLink}
             to="/cart"
             icon={<FaShoppingCart />}
             aria-label="Cart"
@@ -127,12 +138,13 @@ const Header = () => {
       <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
         <DrawerOverlay />
         <DrawerContent bg="white" p={4}>
-          <DrawerCloseButton mt={2} />
-          <DrawerHeader 
-            borderBottomWidth="1px" 
-            fontSize="2xl" 
-            bgGradient="linear(to-r, teal.500, green.500)"
+          <DrawerCloseButton mt={2} color="black" />
+          <DrawerHeader
+            borderBottomWidth="1px"
+            fontSize="xl"
+            bgGradient="linear(to-r, teal.500, blue.500)"
             bgClip="text"
+            fontFamily="'Lobster', cursive"
           >
             Shop Ease
           </DrawerHeader>
