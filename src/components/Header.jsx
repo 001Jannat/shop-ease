@@ -19,7 +19,7 @@ import {
   useDisclosure,
   Image,
 } from "@chakra-ui/react";
-import {useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { Search2Icon } from "@chakra-ui/icons";
 import { FaShoppingCart, FaUser, FaBars, FaHeart } from "react-icons/fa";
 import { NavItems } from ".";
@@ -35,7 +35,7 @@ const Header = () => {
     }
   };
 
-  const displaySearchBar = useBreakpointValue({ base: "none", md: "block" });
+  const displaySearchBar = useBreakpointValue({ base: false, md: true });
 
   return (
     <Box
@@ -51,54 +51,55 @@ const Header = () => {
       width="100%"
     >
       <Flex alignItems="center" justify="space-between" wrap="wrap">
-        <Image src="./shop ease.png" alt="shop ease" boxSize="60px" rounded="full" mt={2} bg="teal.100"/>
-        <Flex alignItems="center">
+         <Link href="/" _hover={{ textDecoration: "none" }} display="flex"  alignItems="center" gap={2}>
+        <Image src="./shop ease.png" alt="shop ease" boxSize="60px" rounded="full" mt={2} bg="teal.100" />
+        <Flex alignItems="center" flex="1" justify="space-between">
+          
           <Heading
             as="h1"
             size="lg"
+            display={{ base:"none", md:"flex"}}
             bgGradient="linear(to-r, teal.500, blue.500)"
             bgClip="text"
             fontFamily="'Lobster', cursive"
           >
-            <Link href="/" _hover={{ textDecoration: "none" }}>
+           
               Shop Ease
-            </Link>
+           
           </Heading>
+          
         </Flex>
-        <Spacer />
-        <Box display={{ base: "none", md: "block" }}>
-          <NavItems />
-        </Box>
-        <Spacer />
-        <Flex
-          flex="1"
-          justify={{ base: "flex-end", md: "space-between" }}
-          alignItems="center"
-          gap={4}
-        >
-          <Box display={displaySearchBar}>
-            <InputGroup minW="400px">
-              <Input
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Search..."
-                onKeyPress={(e) => e.key === "Enter" && handleSearch()}
-              />
-              <InputRightElement>
-                <IconButton
-                  icon={<Search2Icon />}
-                  aria-label="Search"
-                  onClick={handleSearch}
-                  variant="ghost"
-                  color="blue.800"
-                  _hover={{ bg: "blue.100" }}
-                />
-              </InputRightElement>
-            </InputGroup>
+        </Link>
+        <Spacer display={{ base: "none", md: "block" }} />
+          <Box display={{ base: "none", md: "block" }}>
+            <NavItems />
           </Box>
-          <Spacer />
+        <Flex alignItems="center" gap={4}>
+          {displaySearchBar && (
+            <Box>
+              <InputGroup minW={{ base: "200px", md: "400px" }}>
+                <Input
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Search..."
+                  onKeyPress={(e) => e.key === "Enter" && handleSearch()}
+                />
+                <InputRightElement>
+                  <IconButton
+                    icon={<Search2Icon />}
+                    aria-label="Search"
+                    onClick={handleSearch}
+                    variant="ghost"
+                    color="blue.800"
+                    _hover={{ bg: "blue.100" }}
+                  />
+                </InputRightElement>
+              </InputGroup>
+            </Box>
+          )}
           <IconButton
-           href="/user"
+            as={Link}
+            href="/user"
             icon={<FaUser />}
             aria-label="User"
             variant="ghost"
@@ -106,6 +107,7 @@ const Header = () => {
             _hover={{ bg: "blue.100" }}
           />
           <IconButton
+            as={Link}
             href="/heart"
             icon={<FaHeart color="red" />}
             aria-label="Heart"
@@ -114,7 +116,8 @@ const Header = () => {
             _hover={{ bg: "blue.100" }}
           />
           <IconButton
-           href="/cart"
+            as={Link}
+            href="/cart"
             icon={<FaShoppingCart />}
             aria-label="Cart"
             variant="ghost"

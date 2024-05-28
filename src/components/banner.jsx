@@ -18,7 +18,7 @@ const Banner = () => {
   }, []);
 
   if (isLoading) {
-    return <LoadingSkeleton height="200px" width="100%" />; 
+    return <LoadingSkeleton height="200px" width="100%" />;
   }
 
   const settings = {
@@ -32,10 +32,10 @@ const Banner = () => {
   };
 
   return (
-    <Box mb={4} maxW="100vw" height="500px" overflow="hidden">
+    <Box mb={{ base: 2, md: 4 }} maxW="100vw" height="100%" overflow="hidden">
       <Slider {...settings}>
         {bannerData.map((banner) => (
-          <Box key={banner.id} width="100%" height="500px">
+          <Box key={banner.id} width="100%" height="100%">
             <Image 
               src={banner.image} 
               alt={banner.alt} 

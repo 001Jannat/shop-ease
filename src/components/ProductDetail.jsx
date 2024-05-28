@@ -51,11 +51,11 @@ const ProductDetail = () => {
 
   return (
     <>
-      <Box p="80px">
+      <Box p="80px" overflow="hidden">
         <SimpleGrid columns={[1, 2]} spacing="40px">
           <Stack spacing="4">
             {product.photos.map((photo) => (
-              <Image key={photo} src={photo} alt={product.name} />
+              <Image key={photo} src={photo} alt={product.name} borderRadius="md" />
             ))}
           </Stack>
           <Box>
@@ -112,7 +112,7 @@ const ProductDetail = () => {
           <Text fontSize="2xl" fontWeight="bold" mb="4" textColor="gray.700">
             Other Products
           </Text>
-          <SimpleGrid columns={[1, 2, 3, 4]} spacing="6">
+          <SimpleGrid columns={[1, 2, 3, 4]} spacing="10">
             {currentOtherProducts.map((otherProduct) => (
               <ProductCard key={otherProduct.id} product={otherProduct} />
             ))}

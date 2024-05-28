@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Box, Image, Text, Badge, Stack, Link } from "@chakra-ui/react";
-import { ProductCardSkeleton } from ".";
+import LoadingSkeleton from "./loading/LoadingSkeleton";
 import LikeButton from "./like/likeButton";
 
 const ProductCard = ({ product }) => {
@@ -38,7 +38,9 @@ const ProductCard = ({ product }) => {
   };
 
   if (isLoading) {
-    return <ProductCardSkeleton />;
+    return (
+      <LoadingSkeleton height="300px" width={["90%", "80%", "60%", "280px"]} />
+    );
   }
 
   return (
@@ -50,7 +52,8 @@ const ProductCard = ({ product }) => {
         bg="blue.50"
         boxShadow="md"
         mb="5"
-        maxW="90%"
+        maxW={["90%", "80%", "60%", "280px"]}
+        mx="auto"
         position="relative"
         transition="all 0.3s"
         _hover={{
