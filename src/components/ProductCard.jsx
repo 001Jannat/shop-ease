@@ -62,7 +62,14 @@ const ProductCard = ({ product }) => {
         }}
       >
         <Box p="3" position="relative">
-          <Image src={product.photos[0]} alt={product.name} borderRadius="md" />
+          <Image
+            src={product.photos[0]}
+            alt={product.name}
+            borderRadius="md"
+            width="100vh"
+            height="300px"
+            objectFit="cover" 
+          />
           <Box position="absolute" bottom="2" right="2" zIndex="2">
             <LikeButton onLike={handleLike} isLiked={isLiked} />
           </Box>

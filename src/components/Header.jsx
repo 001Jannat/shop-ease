@@ -74,6 +74,7 @@ const Header = () => {
           <Box display={{ base: "none", md: "block" }}>
             <NavItems />
           </Box>
+          <Spacer />
         <Flex alignItems="center" gap={4}>
           {displaySearchBar && (
             <Box>

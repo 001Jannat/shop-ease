@@ -1,8 +1,20 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Box, Image, Text, SimpleGrid, Stack, Button, RadioGroup, Radio, Badge } from "@chakra-ui/react";
+import {
+  Box,
+  Image,
+  Text,
+  SimpleGrid,
+  Stack,
+  Button,
+  RadioGroup,
+  Radio,
+  Badge,
+  HStack,
+  Center,
+} from "@chakra-ui/react";
 import { StarIcon } from "@chakra-ui/icons";
-import { FaHeart,FaShoppingBag } from "react-icons/fa";
+import { FaHeart, FaShoppingBag } from "react-icons/fa";
 import productsData from "../assets/products.json";
 import LoadingSkeleton from "./loading/LoadingSkeleton";
 import ChatButton from "./chatButton";
@@ -37,7 +49,10 @@ const ProductDetail = () => {
   };
 
   const startIndex = (currentPage - 1) * itemsPerPage;
-  const currentOtherProducts = otherProducts.slice(startIndex, startIndex + itemsPerPage);
+  const currentOtherProducts = otherProducts.slice(
+    startIndex,
+    startIndex + itemsPerPage
+  );
 
   if (isLoading) {
     return <LoadingSkeleton height="700px" width="50%" />;
@@ -55,7 +70,12 @@ const ProductDetail = () => {
         <SimpleGrid columns={[1, 2]} spacing="40px">
           <Stack spacing="4">
             {product.photos.map((photo) => (
-              <Image key={photo} src={photo} alt={product.name} borderRadius="md" />
+              <Image
+                key={photo}
+                src={photo}
+                alt={product.name}
+                borderRadius="md"
+              />
             ))}
           </Stack>
           <Box>
@@ -84,20 +104,32 @@ const ProductDetail = () => {
                   {sizes.map((size) => (
                     <Radio key={size.size} value={size.size}>
                       {size.size}{" "}
-                      {size.stock === 1 ? <Badge colorScheme="red">1 left</Badge> : null}
+                      {size.stock === 1 ? (
+                        <Badge colorScheme="red">1 left</Badge>
+                      ) : null}
                     </Radio>
                   ))}
                 </Stack>
               </RadioGroup>
-              <Button mt="4" colorScheme="pink" leftIcon={<FaShoppingBag color="white" />} >
+              <Button
+                mt="4"
+                colorScheme="pink"
+                leftIcon={<FaShoppingBag color="white" />}
+              >
                 ADD TO BAG
               </Button>
-              <Button mt="4" ml="4" variant="outline" colorScheme="pink" leftIcon={<FaHeart color="red" />} >
+              <Button
+                mt="4"
+                ml="4"
+                variant="outline"
+                colorScheme="pink"
+                leftIcon={<FaHeart color="red" />}
+              >
                 WISHLIST
               </Button>
             </Box>
 
-            <ChatButton title={product.name} price={product.price}/>
+            <ChatButton title={product.name} price={product.price} />
 
             <Box mt="4">
               <Text fontSize="lg" fontWeight="bold">
@@ -105,6 +137,27 @@ const ProductDetail = () => {
               </Text>
               <Text>{product.description}</Text>
             </Box>
+            <HStack p={2} display="flex" alignItems="center" gap={5}>
+            {product?.other_images &&
+              product?.other_images.map((image, index) => (
+                <Image
+                  src={image}
+                  alt="other images"
+                  mt={10}
+                  minW="200px"
+                  minH="200px"
+                  boxSize="100px"
+                  objectFit="cover"
+                  borderRadius="md"
+                  cursor="pointer"
+                  _hover={{
+                    opacity: 0.8,
+                    transform: "scale(1.05)",
+                    transition: "all 0.3s ease",
+                  }}
+                />
+              ))}
+              </HStack>
           </Box>
         </SimpleGrid>
 
