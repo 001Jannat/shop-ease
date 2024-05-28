@@ -13,8 +13,9 @@ This project is a responsive React frontend application for displaying a product
 ## Installation
 
 1. Clone the repository:
+
 ````sh
-   git clone https://github.com/rishuraj1/shopease.git
+   git clone https://github.com/001Jannat/shop-ease
    cd shopease
 ```
 2. Install the dependencies:
@@ -24,7 +25,7 @@ This project is a responsive React frontend application for displaying a product
 
 1. Start the development server:
 `npm run dev`
-2. Open your browser and navigate to `http://localhost:3000`
+2. Open your browser and navigate to `http://localhost:5173`
 
 ## Features
 
