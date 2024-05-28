@@ -48,6 +48,7 @@ const Header = () => {
       position="sticky"
       top="0"
       zIndex="1000"
+      width="100%"
     >
       <Flex alignItems="center" justify="space-between" wrap="wrap">
         <Image src="./shop ease.png" alt="shop ease" boxSize="60px" rounded="full" mt={2} bg="teal.100"/>

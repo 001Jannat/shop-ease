@@ -1,18 +1,23 @@
 [
     {
       "id": "1",
-      "image": "https://static.vecteezy.com/system/resources/previews/000/701/690/non_2x/abstract-polygonal-banner-background-vector.jpg",
-      "alt": "Summer Sale"
+      "image": "https://i.pinimg.com/originals/a0/04/7c/a0047c6fbe7355ce655176da3b4cba5e.jpg",
+      "alt": "New Arrivals"
     },
     {
       "id": "2",
-      "image": "https://static.vecteezy.com/system/resources/previews/000/701/690/non_2x/abstract-polygonal-banner-background-vector.jpg",
+      "image": "https://d3jmn01ri1fzgl.cloudfront.net/photoadking/webp_thumbnail/pablo-and-judge-gray-fashion-banner-template-tr54zma3c8e289.webp",
       "alt": "New Arrivals"
     },
     {
       "id": "3",
-      "image": "https://static.vecteezy.com/system/resources/previews/000/701/690/non_2x/abstract-polygonal-banner-background-vector.jpg",
-      "alt": "Festive Collection"
+      "image": "https://as1.ftcdn.net/v2/jpg/04/52/38/26/1000_F_452382698_y6SU2xlHYBv1njIYUmSev5FYLduY8euD.jpg",
+      "alt": "New Collection"
+    },
+    {
+      "id": "4",
+      "image": "https://marketplace.canva.com/EAFT4iBtkRY/1/0/1600w/canva-beige-brown-minimalist-casual-style-banner-landscape-ZXRUHYBCsCU.jpg",
+      "alt": "New Collection"
     }
   ]
   

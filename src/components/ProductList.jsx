@@ -24,7 +24,7 @@ const ProductList = () => {
 
   return (
     <Box pl={[0, 4, 8]} py={4}>
-      <SimpleGrid columns={[1, 2, 4]} spacing="20px">
+      <SimpleGrid columns={[1, 2, 4]} spacing="15px">
         {currentProducts.map(product => (
           <ProductCard key={product.id} product={product} />
         ))}

@@ -33,7 +33,7 @@ const ProductCard = ({ product }) => {
         bg="blue.50"
         boxShadow="md"
         mb="5"
-        maxW="100%"
+        maxW="90%"
         position="relative" 
         transition="all 0.3s"
         _hover={{
