@@ -15,8 +15,26 @@ const ProductCard = ({ product }) => {
     return () => clearTimeout(timer);
   }, []);
 
-  const handleLike = () => {
-    setIsLiked(true); 
+  useEffect(() => {
+    const likes = JSON.parse(localStorage.getItem("likes")) || [];
+    if (likes.includes(product.id)) {
+      setIsLiked(true);
+    }
+  }, [product.id]);
+
+  const handleLike = (e) => {
+    e.preventDefault();
+    const likes = JSON.parse(localStorage.getItem("likes")) || [];
+
+    if (isLiked) {
+      const newLikes = likes.filter((id) => id !== product.id);
+      localStorage.setItem("likes", JSON.stringify(newLikes));
+      setIsLiked(false);
+    } else {
+      likes.push(product.id);
+      localStorage.setItem("likes", JSON.stringify([...new Set(likes)]));
+      setIsLiked(true);
+    }
   };
 
   if (isLoading) {
@@ -33,7 +51,7 @@ const ProductCard = ({ product }) => {
         boxShadow="md"
         mb="5"
         maxW="90%"
-        position="relative" 
+        position="relative"
         transition="all 0.3s"
         _hover={{
           transform: "scale(1.05)",
@@ -43,7 +61,7 @@ const ProductCard = ({ product }) => {
         <Box p="3" position="relative">
           <Image src={product.photos[0]} alt={product.name} borderRadius="md" />
           <Box position="absolute" bottom="2" right="2" zIndex="2">
-            <LikeButton onLike={handleLike} />
+            <LikeButton onLike={handleLike} isLiked={isLiked} />
           </Box>
         </Box>
         <Box p="1">
@@ -72,7 +90,11 @@ const ProductCard = ({ product }) => {
               justifyContent="flex-start"
               alignItems="baseline"
             >
-              <Text color="gray.600" fontSize="xs" textDecoration="line-through">
+              <Text
+                color="gray.600"
+                fontSize="xs"
+                textDecoration="line-through"
+              >
                 ₹{product.originalPrice}
               </Text>
               <Text color="black" fontSize="sm" ml="1">

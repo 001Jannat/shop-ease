@@ -1,8 +1,17 @@
-
-import React, { useEffect, useState } from 'react';
-import { Box, Container, SimpleGrid, Text, Link, Image, Stack, Flex, Grid } from '@chakra-ui/react';
-import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa';
-import LoadingSkeleton from './loading/LoadingSkeleton';
+import React, { useEffect, useState } from "react";
+import {
+  Box,
+  Container,
+  SimpleGrid,
+  Text,
+  Link,
+  Image,
+  Stack,
+  Flex,
+  Grid,
+} from "@chakra-ui/react";
+import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
+import LoadingSkeleton from "./loading/LoadingSkeleton";
 
 const Footer = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -16,32 +25,40 @@ const Footer = () => {
   }, []);
 
   if (isLoading) {
-    return <LoadingSkeleton height="400px" width="100%" />; 
+    return <LoadingSkeleton height="400px" width="100%" />;
   }
 
   return (
     <Box bg="gray.100" py={8} mt="auto">
       <Container maxW="6xl">
-      <Grid templateColumns="repeat(2, 1fr)" gap={6} mt={20} mb={20}>
-      <Container textAlign="center" p={4} borderRadius="full" boxShadow="md" bg="transparent">
-          <Text fontWeight="bold">100% ORIGINAL</Text>
-          <Text>guarantee for all products at shopease.com</Text>
-        </Container>
-        <Container textAlign="center" p={4} borderRadius="full" boxShadow="md" bg="transparent">
-          <Text fontWeight="bold">Return within 14 days</Text>
-          <Text>of receiving your order</Text>
-        </Container>
-      </Grid>
+        <Grid templateColumns="repeat(2, 1fr)" gap={6} mt={20} mb={20}>
+          <Container
+            textAlign="center"
+            p={4}
+            borderRadius="full"
+            boxShadow="md"
+            bg="transparent"
+          >
+            <Text fontWeight="bold">100% ORIGINAL</Text>
+            <Text>guarantee for all products at shopease.com</Text>
+          </Container>
+          <Container
+            textAlign="center"
+            p={4}
+            borderRadius="full"
+            boxShadow="md"
+            bg="transparent"
+          >
+            <Text fontWeight="bold">Return within 14 days</Text>
+            <Text>of receiving your order</Text>
+          </Container>
+        </Grid>
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
           <Stack align="flex-start">
             <Text fontWeight="bold">ONLINE SHOPPING</Text>
             <Link href="/men">Men</Link>
             <Link href="/women">Women</Link>
-            <Link href="/kids">Kids</Link>
-            <Link href="/home-living">Home & Living</Link>
             <Link href="/beauty">Beauty</Link>
-            <Link href="/gift-cards">Gift Cards</Link>
-            <Link href="/shopease-insider">Shop Ease Insider</Link>
           </Stack>
           <Stack align="flex-start">
             <Text fontWeight="bold">CUSTOMER POLICIES</Text>
@@ -74,12 +91,22 @@ const Footer = () => {
                 />
               </Link>
             </Stack>
-            <Text fontWeight="bold" mt={4}>KEEP IN TOUCH</Text>
+            <Text fontWeight="bold" mt={4}>
+              KEEP IN TOUCH
+            </Text>
             <Stack direction="row" spacing={4}>
-              <Link href="https://facebook.com" isExternal><FaFacebook size="24px" /></Link>
-              <Link href="https://twitter.com" isExternal><FaTwitter size="24px" /></Link>
-              <Link href="https://youtube.com" isExternal><FaYoutube size="24px" /></Link>
-              <Link href="https://instagram.com" isExternal><FaInstagram size="24px" /></Link>
+              <Link href="https://facebook.com" isExternal>
+                <FaFacebook size="24px" />
+              </Link>
+              <Link href="https://twitter.com" isExternal>
+                <FaTwitter size="24px" />
+              </Link>
+              <Link href="https://youtube.com" isExternal>
+                <FaYoutube size="24px" />
+              </Link>
+              <Link href="https://instagram.com" isExternal>
+                <FaInstagram size="24px" />
+              </Link>
             </Stack>
           </Stack>
           <Stack align="flex-start">
@@ -91,15 +118,13 @@ const Footer = () => {
             <Link href="/whitehat">Whitehat</Link>
             <Link href="/cleartrip">Cleartrip</Link>
           </Stack>
-        </SimpleGrid> 
+        </SimpleGrid>
         <Box mt={10}>
-       
-            <Grid templateColumns="repeat(3, 1fr)" gap={10}>
-              <Link href="/contact-us">In case of any concern, Contact Us</Link>
-              <Text>© 2024 www.shopease.com. All rights reserved.</Text>
-              <Text>A ShopEase Company</Text>
-            </Grid>
-        
+          <Grid templateColumns="repeat(3, 1fr)" gap={10}>
+            <Link href="/contact-us">In case of any concern, Contact Us</Link>
+            <Text>© 2024 www.shopease.com. All rights reserved.</Text>
+            <Text>A ShopEase Company</Text>
+          </Grid>
         </Box>
       </Container>
     </Box>

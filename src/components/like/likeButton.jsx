@@ -1,30 +1,15 @@
-import React, { useState } from "react";
-import { IconButton, Tooltip } from "@chakra-ui/react";
-import { FaHeart } from "react-icons/fa";
+import React from "react";
+import { IconButton } from "@chakra-ui/react";
+import { FaHeart, FaRegHeart } from "react-icons/fa";
 
-const LikeButton = ({ onLike }) => {
-  const [isLiked, setIsLiked] = useState(false);
-
-  const handleLike = (e) => {
-    e.preventDefault();
-    setIsLiked(!isLiked);
-    if (onLike) {
-      onLike();
-    }
-  };
-
+const LikeButton = ({ onLike, isLiked }) => {
   return (
-    <Tooltip label={isLiked ? "Unlike" : "Like"} aria-label="like">
-      <IconButton
-        icon={<FaHeart color={isLiked ? "red" : "white"} size={25} />}
-        aria-label={isLiked ? "Unlike" : "Like"}
-        onClick={handleLike}
-        variant="ghost"
-        color="blue.800"
-        borderRadius="full"
-        _hover={{ bg: "blue.100" }}
-      />
-    </Tooltip>
+    <IconButton
+      onClick={onLike}
+      icon={isLiked ? <FaHeart color="red" /> : <FaRegHeart />}
+      variant="ghost"
+      aria-label="Like"
+    />
   );
 };
 
