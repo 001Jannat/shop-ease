@@ -19,7 +19,7 @@ import {
   useDisclosure,
   Image,
 } from "@chakra-ui/react";
-import { Link as RouterLink, useNavigate } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 import { Search2Icon } from "@chakra-ui/icons";
 import { FaShoppingCart, FaUser, FaBars, FaHeart } from "react-icons/fa";
 import { NavItems } from ".";
@@ -60,7 +60,7 @@ const Header = () => {
             bgClip="text"
             fontFamily="'Lobster', cursive"
           >
-            <Link as={RouterLink} to="/" _hover={{ textDecoration: "none" }}>
+            <Link href="/" _hover={{ textDecoration: "none" }}>
               Shop Ease
             </Link>
           </Heading>
@@ -77,7 +77,7 @@ const Header = () => {
           gap={4}
         >
           <Box display={displaySearchBar}>
-            <InputGroup maxW="300px">
+            <InputGroup minW="400px">
               <Input
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
@@ -96,9 +96,9 @@ const Header = () => {
               </InputRightElement>
             </InputGroup>
           </Box>
+          <Spacer />
           <IconButton
-            as={RouterLink}
-            to="/user"
+           href="/user"
             icon={<FaUser />}
             aria-label="User"
             variant="ghost"
@@ -106,8 +106,7 @@ const Header = () => {
             _hover={{ bg: "blue.100" }}
           />
           <IconButton
-            as={RouterLink}
-            to="/heart"
+            href="/heart"
             icon={<FaHeart color="red" />}
             aria-label="Heart"
             variant="ghost"
@@ -115,8 +114,7 @@ const Header = () => {
             _hover={{ bg: "blue.100" }}
           />
           <IconButton
-            as={RouterLink}
-            to="/cart"
+           href="/cart"
             icon={<FaShoppingCart />}
             aria-label="Cart"
             variant="ghost"

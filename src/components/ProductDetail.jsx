@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { Box, Image, Text, SimpleGrid, Stack } from "@chakra-ui/react";
+import { Box, Image, Text, SimpleGrid, Stack, Button, RadioGroup, Radio, Badge } from "@chakra-ui/react";
+import { StarIcon } from "@chakra-ui/icons";
+import { FaHeart,FaShoppingBag } from "react-icons/fa";
 import productsData from "../assets/products.json";
 import LoadingSkeleton from "./loading/LoadingSkeleton";
 import ChatButton from "./chatButton";
 import ProductCard from "./ProductCard";
-import {Pagination} from ".";
+import { Pagination } from ".";
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -15,7 +17,9 @@ const ProductDetail = () => {
 
   const [isLoading, setIsLoading] = useState(true);
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 4; 
+  const [selectedSize, setSelectedSize] = useState(product.sizes[0].size);
+  const [sizes, setSizes] = useState(product.sizes);
+  const itemsPerPage = 4;
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -39,6 +43,12 @@ const ProductDetail = () => {
     return <LoadingSkeleton height="700px" width="50%" />;
   }
 
+  const handleSizeChange = (value) => {
+    setSelectedSize(value);
+  };
+
+  const selectedSizeDetails = sizes.find((size) => size.size === selectedSize);
+
   return (
     <>
       <Box p="80px">
@@ -58,8 +68,36 @@ const ProductDetail = () => {
             <Text fontSize="2xl" color="black">
               ₹{product.price}
             </Text>
+            <Text fontSize="md" color="gray.600">
+              inclusive of all taxes
+            </Text>
+            <Text fontSize="md" color="gray.600">
+              4.2 <StarIcon color="yellow" /> {product.ratingsCount} Ratings
+            </Text>
 
-            <ChatButton title={product.name} price={product.price} />
+            <Box mt="4">
+              <Text fontSize="lg" fontWeight="bold">
+                Select Size
+              </Text>
+              <RadioGroup onChange={handleSizeChange} value={selectedSize}>
+                <Stack direction="row">
+                  {sizes.map((size) => (
+                    <Radio key={size.size} value={size.size}>
+                      {size.size}{" "}
+                      {size.stock === 1 ? <Badge colorScheme="red">1 left</Badge> : null}
+                    </Radio>
+                  ))}
+                </Stack>
+              </RadioGroup>
+              <Button mt="4" colorScheme="pink" leftIcon={<FaShoppingBag color="white" />} >
+                ADD TO BAG
+              </Button>
+              <Button mt="4" ml="4" variant="outline" colorScheme="pink" leftIcon={<FaHeart color="red" />} >
+                WISHLIST
+              </Button>
+            </Box>
+
+            <ChatButton title={product.name} price={product.price}/>
 
             <Box mt="4">
               <Text fontSize="lg" fontWeight="bold">

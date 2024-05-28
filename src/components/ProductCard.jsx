@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Box, Image, Text, Badge, Stack, Link } from "@chakra-ui/react";
-import { Link as RouterLink } from "react-router-dom";
 import { ProductCardSkeleton } from ".";
 import LikeButton from "./like/likeButton";
 
@@ -25,7 +24,7 @@ const ProductCard = ({ product }) => {
   }
 
   return (
-    <Link as={RouterLink} to={`/product/${product.id}`}>
+    <Link href={`/product/${product.id}`}>
       <Box
         borderWidth="2px"
         borderRadius="lg"

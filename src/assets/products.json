@@ -2,10 +2,17 @@
   {
     "id": "1",
     "name": "Women's Ethnic Dress",
-    "description": "Beautiful traditional ethnic dress perfect for festive occasions.",
+    "description": "Beautiful traditional ethnic dress perfect for festive occasions. This stunning dress embodies the essence of traditional craftsmanship fused with modern elegance. Handcrafted by skilled artisans, it features intricate embroidery and exquisite detailing, adding a touch of sophistication to your ensemble. Made from high-quality fabric, it offers both style and comfort, allowing you to dance the night away with ease. Whether it's a wedding, festival, or any special celebration, this dress is sure to make you stand out and leave a lasting impression. Elevate your ethnic wardrobe with this timeless piece and make every moment memorable.",
     "price": "3500.00",
     "originalPrice": "5000.00",
     "discount": "30",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -14,10 +21,17 @@
   {
     "id": "2",
     "name": "Women's Western Top",
-    "description": "Stylish and comfortable western top for casual wear.",
+    "description": "Stylish and comfortable western top for casual wear. This chic top is a perfect blend of style and comfort, making it a versatile addition to your wardrobe. Crafted from premium quality fabric, it offers a soft and breathable feel, keeping you comfortable throughout the day. The contemporary design features trendy patterns and flattering silhouettes, adding a touch of sophistication to your casual look. Whether you're heading out for brunch with friends or running errands, this top will keep you looking effortlessly stylish. Pair it with jeans or shorts for a laid-back yet fashionable ensemble. Upgrade your casual wardrobe with this must-have staple.",
     "price": "1200.00",
     "originalPrice": "2000.00",
     "discount": "40",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -26,10 +40,17 @@
   {
     "id": "3",
     "name": "Men's Casual Shirt",
-    "description": "Cool and comfortable casual shirt for men.",
+    "description": "Cool and comfortable casual shirt for men. Add a touch of laid-back charm to your wardrobe with this stylish casual shirt. Crafted from high-quality fabric, it offers a soft and breathable feel, ensuring maximum comfort all day long. The classic design features a button-down collar and chest pocket, exuding a timeless appeal. Whether you're hanging out with friends or heading to a casual outing, this shirt is perfect for any occasion. Pair it with jeans or chinos for a relaxed yet polished look. Upgrade your casual wardrobe with this versatile shirt and stay effortlessly stylish.",
     "price": "1500.00",
     "originalPrice": "3000.00",
     "discount": "50",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -38,10 +59,17 @@
   {
     "id": "4",
     "name": "Kid's T-Shirt",
-    "description": "Colorful and fun T-shirt for kids.",
+    "description": "Colorful and fun T-shirt for kids. Let your little one showcase their unique style with this vibrant and playful T-shirt. Made from soft and breathable fabric, it ensures all-day comfort, perfect for playdates, school, or simply lounging at home. The eye-catching design and comfortable fit make it a favorite among kids and parents alike. Whether they're running around in the park or attending a birthday party, this T-shirt is sure to keep them looking cool and feeling confident. Add a pop of color to their wardrobe with this must-have piece!",
     "price": "800.00",
     "originalPrice": "1500.00",
     "discount": "47",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -50,10 +78,17 @@
   {
     "id": "5",
     "name": "Home Decor Lamp",
-    "description": "Elegant home decor lamp to light up your living space.",
+    "description": "Elegant home decor lamp to light up your living space. Create a warm and inviting ambiance in any room with this stylish home decor lamp. Featuring a sleek design and soft illumination, it adds a touch of sophistication to your living room, bedroom, or study. The versatile design blends seamlessly with any decor style, from modern to traditional. Whether you're reading a book, working on a project, or simply relaxing, this lamp provides the perfect lighting solution. Elevate your home decor and brighten up your living space with this elegant lamp.",
     "price": "2500.00",
     "originalPrice": "5000.00",
     "discount": "50",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -62,10 +97,17 @@
   {
     "id": "6",
     "name": "Beauty Skincare Set",
-    "description": "Complete skincare set to keep your skin glowing.",
+    "description": "Complete skincare set to keep your skin glowing. Pamper your skin with this luxurious skincare set designed to nourish, hydrate, and rejuvenate. Formulated with premium ingredients, each product works synergistically to address common skincare concerns and promote a radiant complexion. From cleansers and moisturizers to serums and masks, this comprehensive set has everything you need for a complete skincare routine. Whether you're dealing with dryness, dullness, or signs of aging, these products will help you achieve smoother, healthier-looking skin. Treat yourself to the ultimate skincare experience and indulge in self-care with this beauty skincare set.",
     "price": "3000.00",
     "originalPrice": "6000.00",
     "discount": "50",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -74,10 +116,17 @@
   {
     "id": "7",
     "name": "Men's Formal Suit",
-    "description": "Classic formal suit for men, perfect for professional occasions.",
+    "description": "Classic formal suit for men, perfect for professional occasions. Make a lasting impression at your next formal event with this timeless formal suit. Crafted from premium quality fabric, it exudes sophistication and refinement, ensuring you look sharp and polished. The classic silhouette and impeccable tailoring create a flattering fit that flatters every body type. Whether you're attending a wedding, business meeting, or special dinner, this suit is sure to command attention and earn you compliments. Elevate your formal wardrobe with this classic suit and step out in style with confidence.",
     "price": "4500.00",
     "originalPrice": "7000.00",
     "discount": "35",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -86,10 +135,17 @@
   {
     "id": "8",
     "name": "Women's Party Dress",
-    "description": "Gorgeous party dress for women, ideal for special events.",
+    "description": "Gorgeous party dress for women, ideal for special events. Make a stunning entrance at any gathering with this exquisite party dress. Designed to highlight your silhouette, this dress features intricate detailing and high-quality fabric that drapes beautifully. Whether you're attending a wedding, gala, or festive celebration, this dress ensures you stand out with elegance and grace. The timeless design allows for versatile styling, making it a staple piece in your wardrobe for years to come. Pair it with your favorite accessories and heels to complete the look, and step into the spotlight with confidence.",
     "price": "2800.00",
     "originalPrice": "4000.00",
     "discount": "30",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -98,10 +154,17 @@
   {
     "id": "9",
     "name": "Kid's Denim Jeans",
-    "description": "Stylish denim jeans for kids, perfect for casual wear.",
+    "description": "Stylish denim jeans for kids, perfect for casual wear. These jeans are crafted from durable denim, ensuring they withstand the rigors of everyday play. With a comfortable fit and versatile style, they are suitable for various occasions, from school to weekend outings. The classic design features functional pockets and a zip fly with button closure, making them both practical and fashionable. Pair them with a favorite tee or sweater for a laid-back look that kids will love. These jeans are a must-have addition to any child's wardrobe, offering both style and durability.",
     "price": "1000.00",
     "originalPrice": "1800.00",
     "discount": "44",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -110,10 +173,17 @@
   {
     "id": "10",
     "name": "Home Decor Cushions",
-    "description": "Set of decorative cushions to add charm to your living room.",
+    "description": "Set of decorative cushions to add charm to your living room. Transform your living space with these beautiful and comfortable cushions. Designed to complement any decor style, these cushions feature elegant patterns and vibrant colors that add a touch of sophistication to your home. The soft fabric ensures a cozy feel, making them perfect for lounging on the sofa or adding extra comfort to your chairs. Mix and match with other home decor items to create a cohesive look that reflects your personal style. These cushions are an easy and affordable way to refresh your space and enhance its overall appeal.",
     "price": "1200.00",
     "originalPrice": "2000.00",
     "discount": "40",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -122,23 +192,36 @@
   {
     "id": "11",
     "name": "Beauty Makeup Kit",
-    "description": "Complete makeup kit for all your beauty needs.",
+    "description": "Complete makeup kit for all your beauty needs. Elevate your beauty routine with this all-in-one makeup kit, designed to cater to every makeup lover's needs. This comprehensive kit includes a range of products from foundations and blushes to eyeshadows and lip colors, all curated to help you achieve any look you desire. Perfect for both everyday wear and special occasions, the high-quality formulas ensure long-lasting, flawless results. The compact and organized design makes it easy to carry and ideal for travel. Whether you're a beginner or a professional, this makeup kit is a must-have for creating beautiful, confident looks.",
     "price": "3500.00",
     "originalPrice": "5500.00",
     "discount": "36",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
     "type": "beauty"
   },
-  
   {
     "id": "12",
     "name": "Men's Sports Shoes",
-    "description": "Comfortable and durable sports shoes for men, suitable for various activities.",
+    "description": "Comfortable and durable sports shoes for men, suitable for various activities. These sports shoes are designed to provide maximum comfort and support during physical activities. Whether you're running, hiking, or hitting the gym, these shoes offer excellent cushioning and stability. The breathable material keeps your feet cool and dry, while the durable outsole ensures long-lasting performance. The sleek design and versatile color make them a stylish addition to any athletic wardrobe. Perfect for athletes and fitness enthusiasts, these shoes will help you perform at your best while maintaining a stylish appearance. Invest in your fitness with these top-quality sports shoes.",
     "price": "2000.00",
     "originalPrice": "3000.00",
     "discount": "33",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -147,10 +230,17 @@
   {
     "id": "13",
     "name": "Women's Handbag",
-    "description": "Stylish and spacious handbag for women, perfect for everyday use.",
+    "description": "Stylish and spacious handbag for women, perfect for everyday use. This handbag combines fashion and functionality, making it an essential accessory for any wardrobe. Crafted from high-quality materials, it features a chic design that complements various outfits, from casual to formal. The spacious interior provides ample room for all your essentials, including a wallet, phone, makeup, and more. Multiple pockets help keep your belongings organized and easily accessible. The sturdy handles and detachable shoulder strap offer versatile carrying options, ensuring comfort throughout the day. Whether heading to work, shopping, or a night out, this handbag is your perfect companion.",
     "price": "1500.00",
     "originalPrice": "2500.00",
     "discount": "40",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -159,10 +249,17 @@
   {
     "id": "14",
     "name": "Kids' Educational Toys Set",
-    "description": "Engaging and educational toys set for kids to enhance learning and creativity.",
+    "description": "Engaging and educational toys set for kids to enhance learning and creativity. This set is designed to provide endless hours of fun while promoting cognitive development and fine motor skills. It includes a variety of interactive toys that encourage problem-solving, critical thinking, and creativity. The colorful and durable pieces are safe for children and easy to handle. Perfect for both individual and group play, these toys foster social skills and teamwork. Ideal for home or classroom use, this educational set is a valuable addition to any child's toy collection, offering a perfect balance of learning and entertainment.",
     "price": "1200.00",
     "originalPrice": "1800.00",
     "discount": "33",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -171,10 +268,17 @@
   {
     "id": "15",
     "name": "Home Decor Wall Clock",
-    "description": "Modern and elegant wall clock to adorn your home decor.",
+    "description": "Modern and elegant wall clock to adorn your home decor. This wall clock is not just a timekeeper but a stylish piece of art that enhances the aesthetic appeal of any room. Featuring a sleek and contemporary design, it fits perfectly in living rooms, bedrooms, or offices. The large, easy-to-read numbers and hands ensure clear visibility from a distance. Made from high-quality materials, this clock is durable and long-lasting. Its silent movement mechanism ensures a peaceful environment, free from the ticking noise. This wall clock is a functional and decorative addition to your home, adding a touch of elegance and sophistication.",
     "price": "800.00",
     "originalPrice": "1200.00",
     "discount": "33",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],
@@ -183,10 +287,245 @@
   {
     "id": "16",
     "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This hair care bundle includes everything you need for healthy, vibrant hair. Featuring a selection of shampoos, conditioners, and treatments, it targets various hair concerns such as dryness, damage, and frizz. Formulated with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Pamper yourself with this luxurious hair care set and enjoy salon-quality results at home.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "17",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This hair care bundle includes everything you need for healthy, vibrant hair. Featuring a selection of shampoos, conditioners, and treatments, it targets various hair concerns such as dryness, damage, and frizz. Formulated with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Pamper yourself with this luxurious hair care set and enjoy salon-quality results at home.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "18",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This hair care bundle includes everything you need for healthy, vibrant hair. Featuring a selection of shampoos, conditioners, and treatments, it targets various hair concerns such as dryness, damage, and frizz. Formulated with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Pamper yourself with this luxurious hair care set and enjoy salon-quality results at home.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "19",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This hair care bundle includes everything you need for healthy, vibrant hair. Featuring a selection of shampoos, conditioners, and treatments, it targets various hair concerns such as dryness, damage, and frizz. Formulated with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Pamper yourself with this luxurious hair care set and enjoy salon-quality results at home.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "20",
+    "name": "Beauty Hair Care Bundle",
     "description": "Complete bundle of hair care products to nourish and strengthen your hair.",
     "price": "2500.00",
     "originalPrice": "4000.00",
     "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "21",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This comprehensive set includes everything you need to achieve healthy, vibrant hair. The bundle features a variety of shampoos, conditioners, and treatments specifically formulated to address common hair concerns such as dryness, damage, and frizz. Enriched with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Enjoy salon-quality results at home with this luxurious hair care set.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "22",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This comprehensive set includes everything you need to achieve healthy, vibrant hair. The bundle features a variety of shampoos, conditioners, and treatments specifically formulated to address common hair concerns such as dryness, damage, and frizz. Enriched with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Enjoy salon-quality results at home with this luxurious hair care set.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "23",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This comprehensive set includes everything you need to achieve healthy, vibrant hair. The bundle features a variety of shampoos, conditioners, and treatments specifically formulated to address common hair concerns such as dryness, damage, and frizz. Enriched with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Enjoy salon-quality results at home with this luxurious hair care set.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "24",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This comprehensive set includes everything you need to achieve healthy, vibrant hair. The bundle features a variety of shampoos, conditioners, and treatments specifically formulated to address common hair concerns such as dryness, damage, and frizz. Enriched with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Enjoy salon-quality results at home with this luxurious hair care set.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "25",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This comprehensive set includes everything you need to achieve healthy, vibrant hair. The bundle features a variety of shampoos, conditioners, and treatments specifically formulated to address common hair concerns such as dryness, damage, and frizz. Enriched with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Enjoy salon-quality results at home with this luxurious hair care set.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "26",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This comprehensive set includes everything you need to achieve healthy, vibrant hair. The bundle features a variety of shampoos, conditioners, and treatments specifically formulated to address common hair concerns such as dryness, damage, and frizz. Enriched with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Enjoy salon-quality results at home with this luxurious hair care set.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "27",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This comprehensive set includes everything you need to achieve healthy, vibrant hair. The bundle features a variety of shampoos, conditioners, and treatments specifically formulated to address common hair concerns such as dryness, damage, and frizz. Enriched with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Enjoy salon-quality results at home with this luxurious hair care set.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
+    ],
+    "type": "beauty"
+  },
+  {
+    "id": "28",
+    "name": "Beauty Hair Care Bundle",
+    "description": "Complete bundle of hair care products to nourish and strengthen your hair. This comprehensive set includes everything you need to achieve healthy, vibrant hair. The bundle features a variety of shampoos, conditioners, and treatments specifically formulated to address common hair concerns such as dryness, damage, and frizz. Enriched with natural ingredients, these products provide deep nourishment and hydration, leaving your hair soft, shiny, and manageable. Suitable for all hair types, this bundle is designed to enhance your hair's natural beauty and protect it from environmental damage. Enjoy salon-quality results at home with this luxurious hair care set.",
+    "price": "2500.00",
+    "originalPrice": "4000.00",
+    "discount": "37.5",
+    "sizes": [
+      { "size": "S", "price": 1494, "stock": 10 },
+      { "size": "M", "price": 1034, "stock": 5 },
+      { "size": "L", "price": 1034, "stock": 0 },
+      { "size": "XL", "price": 1494, "stock": 1 },
+      { "size": "XXL", "price": 1494, "stock": 3 }
+    ],
     "photos": [
       "https://assets.ajio.com/medias/sys_master/root/20230824/xNgb/64e787e1ddf77915196b3332/-473Wx593H-466490592-rust-MODEL7.jpg"
     ],

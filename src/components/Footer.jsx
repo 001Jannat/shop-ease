@@ -1,10 +1,23 @@
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Box, Container, SimpleGrid, Text, Link, Image, Stack, Flex, Grid } from '@chakra-ui/react';
-import { Link as RouterLink } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaYoutube, FaInstagram } from 'react-icons/fa';
+import LoadingSkeleton from './loading/LoadingSkeleton';
 
 const Footer = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <LoadingSkeleton height="400px" width="100%" />; 
+  }
 
   return (
     <Box bg="gray.100" py={8} mt="auto">
@@ -22,26 +35,26 @@ const Footer = () => {
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
           <Stack align="flex-start">
             <Text fontWeight="bold">ONLINE SHOPPING</Text>
-            <Link as={RouterLink} to="/men">Men</Link>
-            <Link as={RouterLink} to="/women">Women</Link>
-            <Link as={RouterLink} to="/kids">Kids</Link>
-            <Link as={RouterLink} to="/home-living">Home & Living</Link>
-            <Link as={RouterLink} to="/beauty">Beauty</Link>
-            <Link as={RouterLink} to="/gift-cards">Gift Cards</Link>
-            <Link as={RouterLink} to="/shopease-insider">Shop Ease Insider</Link>
+            <Link href="/men">Men</Link>
+            <Link href="/women">Women</Link>
+            <Link href="/kids">Kids</Link>
+            <Link href="/home-living">Home & Living</Link>
+            <Link href="/beauty">Beauty</Link>
+            <Link href="/gift-cards">Gift Cards</Link>
+            <Link href="/shopease-insider">Shop Ease Insider</Link>
           </Stack>
           <Stack align="flex-start">
             <Text fontWeight="bold">CUSTOMER POLICIES</Text>
-            <Link as={RouterLink} to="/contact-us">Contact Us</Link>
-            <Link as={RouterLink} to="/faq">FAQ</Link>
-            <Link as={RouterLink} to="/terms">T&C</Link>
-            <Link as={RouterLink} to="/terms-of-use">Terms Of Use</Link>
-            <Link as={RouterLink} to="/track-orders">Track Orders</Link>
-            <Link as={RouterLink} to="/shipping">Shipping</Link>
-            <Link as={RouterLink} to="/cancellation">Cancellation</Link>
-            <Link as={RouterLink} to="/returns">Returns</Link>
-            <Link as={RouterLink} to="/privacy-policy">Privacy Policy</Link>
-            <Link as={RouterLink} to="/grievance-officer">Grievance Officer</Link>
+            <Link href="/contact-us">Contact Us</Link>
+            <Link href="/faq">FAQ</Link>
+            <Link href="/terms">T&C</Link>
+            <Link href="/terms-of-use">Terms Of Use</Link>
+            <Link href="/track-orders">Track Orders</Link>
+            <Link href="/shipping">Shipping</Link>
+            <Link href="/cancellation">Cancellation</Link>
+            <Link href="/returns">Returns</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/grievance-officer">Grievance Officer</Link>
           </Stack>
           <Stack align="flex-start">
             <Text fontWeight="bold">EXPERIENCE SHOP EASE APP ON MOBILE</Text>
@@ -71,18 +84,18 @@ const Footer = () => {
           </Stack>
           <Stack align="flex-start">
             <Text fontWeight="bold">USEFUL LINKS</Text>
-            <Link as={RouterLink} to="/blog">Blog</Link>
-            <Link as={RouterLink} to="/careers">Careers</Link>
-            <Link as={RouterLink} to="/site-map">Site Map</Link>
-            <Link as={RouterLink} to="/corporate-information">Corporate Information</Link>
-            <Link as={RouterLink} to="/whitehat">Whitehat</Link>
-            <Link as={RouterLink} to="/cleartrip">Cleartrip</Link>
+            <Link href="/blog">Blog</Link>
+            <Link href="/careers">Careers</Link>
+            <Link href="/site-map">Site Map</Link>
+            <Link href="/corporate-information">Corporate Information</Link>
+            <Link href="/whitehat">Whitehat</Link>
+            <Link href="/cleartrip">Cleartrip</Link>
           </Stack>
         </SimpleGrid> 
         <Box mt={10}>
        
             <Grid templateColumns="repeat(3, 1fr)" gap={10}>
-              <Link as={RouterLink} to="/contact-us">In case of any concern, Contact Us</Link>
+              <Link href="/contact-us">In case of any concern, Contact Us</Link>
               <Text>© 2024 www.shopease.com. All rights reserved.</Text>
               <Text>A ShopEase Company</Text>
             </Grid>

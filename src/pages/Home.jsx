@@ -1,13 +1,13 @@
 import React from 'react';
-import { Box } from '@chakra-ui/react';
+import { Flex } from '@chakra-ui/react';
 import { Banner,ProductList,CategoryList } from '../components';
 const Home = () => {
   return (
-    <Box>
+    <Flex direction="column">
       <Banner />
       <CategoryList />
       <ProductList />
-    </Box>
+    </Flex>
   );
 };
 

@@ -7,7 +7,7 @@ import { Flex } from '@chakra-ui/react';
 
 function App() {
   return (
-    <Flex direction="column" minH="100vh">
+    <Flex direction="column" minH="100vh" maxW="screen">
       <Router>
         <Header />
         <Flex direction="column" flex="1">

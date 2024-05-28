@@ -32,7 +32,7 @@ const Banner = () => {
   };
 
   return (
-    <Box mb={4} width="100%" height="500px">
+    <Box mb={4} maxW="100vw" height="500px" overflow="hidden">
       <Slider {...settings}>
         {bannerData.map((banner) => (
           <Box key={banner.id} width="100%" height="500px">

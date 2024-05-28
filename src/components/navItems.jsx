@@ -2,10 +2,9 @@ import { Flex, Link, useBreakpointValue } from "@chakra-ui/react";
 import React from "react";
 
 const navItems = [
-  { label: "NEW ARRIVALS", to: "/arrival" },
+  { label: "New Arrivals", to: "/arrival" },
   { label: "Women", to: "/women" },
   { label: "Men", to: "/men" },
-  { label: "Home & Living", to: "/home" },
   { label: "Beauty", to: "/beauty" },
 ];
 
